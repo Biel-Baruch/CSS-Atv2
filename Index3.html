@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+    <link rel="icon" href="Img/world-wide-web.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+header {
+    background-image: url("Img/textura-branca.jpg");
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 5;
+    color:  rgb(105,105,105);
+    font-size: 30pt;
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.left-images, .right-images {
+    display: flex;
+    margin: 10px;
+}
+.header-image {
+    width: 60px;
+    height: auto;
+    margin: 5px;
+}
+nav {
+    background-image: url("Img/textura-branca.jpg");
+    width: 15%;
+    height: 100%;
+    top: 150px;
+    right: 0;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 5;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: left;
+}
+main {
+    background-image: url("Img/textura-cinza.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 85%;
+    min-height: 100%;
+    padding: 20px;
+    top: 150px;
+    position: absolute;
+    border-top: 2px dotted rgb(255, 250, 250);
+    border-right: 2px dotted rgb(255, 250, 250);
+    box-sizing: border-box;
+    z-index: 1;
+}
+p {
+    color: rgb(255,250,250);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+span {
+    color: rgb(255,165,0);
+}
+pre {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: right;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th {
+    padding: 10px;
+    text-align: left;
+    border: 3px solid #ccc;
+    font-size: 14pt;
+    color: rgb(30,144,255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid #ccc;
+    color: #ccc;
+    font-weight: bold;
+    font-size: 12pt;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+th img {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+    </style>
+</head>
+    <body>
+        <header>
+            <div class="header-content">
+                <div class="left-images">
+                    <img src="Img/internet.png" alt="Internet" class="header-image">
+                    <img src="Img/conexao-de-internet.png" alt="Conexão" class="header-image">
+                    <img src="Img/navegador (1).png" alt="Navegador" class="header-image">
+                </div>
+                <h1>Desenvolvimento Web</h1>
+                <div class="right-images">
+                    <img src="Img/local-na-rede-internet.png" alt="Local" class="header-image">
+                    <img src="Img/local-na-rede-internet (1).png" alt="Local 1" class="header-image">
+                    <img src="Img/local-na-rede-internet (2).png" alt="Local 2" class="header-image">
+                </div>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="Img/home.png" alt="Home" width="20px"><a href="Index.html"> Home</a>
+                </li>
+                <li>
+                    <img src="Img/tecnologica.png" alt="Tecnologias" width="20px"><a href="Index2.html"> Tecnologias</a>
+                </li>
+                <li>
+                    <img src="Img/navegador.png" alt="Navegador" width="20px"><a href="Index3.html"> Navegadores</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <table>
+                <tr>
+                    <th colspan="3">Alguns Navegadores associados ao Desenvolvimento Web</th>
+                </tr>
+                <tr>
+                    <th><img src="Img/firefox.png" alt="Firefox"></th>
+                    <td>Firefox</td>
+                    <td>Mozilla Firefox, ou simplesmente Firefox, é um navegador livre e multiplataforma desenvolvido pela Mozilla Foundation com ajuda de centenas de colaboradores.[20] A intenção da fundação é desenvolver um navegador leve, seguro, intuitivo e altamente extensível.</td>
+                </tr>
+                <tr>
+                    <th><img src="Img/cromada.png" alt="Google Chrome"></th>
+                    <td>Chrome</td>
+                    <td>O Google Chrome é um navegador de internet, desenvolvido pela companhia Google com visual minimalista.</td>
+                </tr>
+                <tr>
+                    <th><img src="Img/explorador-de-internet.png" alt="Internet Explorer"></th>
+                    <td>Internet Explorer</td>
+                    <td>Internet Explorer foi uma série de navegadores web gráficos desenvolvidos pela Microsoft e inclusos como parte da linha de sistemas operacionais Microsoft Windows, iniciada em 1995.</td>
+                </tr>
+                <tr>
+                    <th><img src="Img/safari.png" alt="Safari"></th>
+                    <td>Safari</td>
+                    <td>O Safari é um navegador de internet desenvolvido pela Apple Inc. Ele foi introduzido como o navegador padrão do sistema operacional Mac OS X v10.3 (Panther) em 2003. Apresenta uma interface simples, característica dos produtos da Apple.</td>
+                </tr>
+                <tr>
+                    <th><img src="Img/netscape.png" alt="Nestscape"></th>
+                    <td>Netscape</td>
+                    <td>Netscape Communications ou simplesmente Netscape (antes conhecida como Netscape Communications Corporation) foi uma empresa de serviços de computadores nos EUA, mais conhecida pelo seu navegador web Netscape Navigator.</td>
+                </tr>
+            </table>
+            <pre><span>Fonte: Wikipedia</span></pre>
+        </main>
+    </body>
+    </html>
